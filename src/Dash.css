@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body4 {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashcontainer {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashcontainer h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px black, 0 0 10px whitesmoke;
+}
+
+.cartable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cartable th, .cartable td {
+    padding: 12px 20px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.cartable th {
+    background-color: darkslategray;
+    color: #fff;
+    font-weight: bold;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.cartable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.cartable tr:hover {
+    cursor: pointer;
+}
+
+.cartable td:last-child {
+    border-right: none;
+}
+
+.cartable td {
+    border-right: 1px solid #ddd;
+}
+
+.cartable td .delbtn{
+    color:white;
+    background-color:chocolate;
+    border-radius: 4px;
+    border: 0;
+    padding: 5px ;
+}
+.cartable td .delbtn:hover{
+    color:#007bff;
+    background-color:whitesmoke;
+    border-radius: 4px;
+    border: 0;
+    padding: 5px ;
+}
+
+.nobookings{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .dashcontainer {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .cartable th, .cartable td {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+    }
+}

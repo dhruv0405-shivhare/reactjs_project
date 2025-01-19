@@ -1,0 +1,88 @@
+.plogo{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.h1 h1 {
+    font-size: 40px;
+    font-weight: 650;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.cards1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.cards1 .card1 h1 h2 {
+    text-align: center;
+}
+.cards1 .card1{
+    border: 2px solid black;
+    width: 340px;
+    height: 480px;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    align-items: center;
+    margin-bottom: 50px ;
+}
+.h h1{
+        font-size: 40px;
+        font-weight: 650;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        line-height: 2;
+        text-align: center;
+        margin-bottom: 10px;
+    
+    }
+
+.cards1 .card1 img{
+    width: 300px;
+    height: 200px;
+}
+.cards1 .card1 img:hover{
+    transition: all ease-in-out 0.2s;
+    transform: scale(1.7);
+}
+
+.cards1 .card1 h1{
+    font-size: 30px;
+}
+
+.cards1 .card1 button {
+    border: 0;
+    background-color: darkslategray;
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 95px
+}
+
+.cards1 .card1 button:hover{
+    color: black;
+    background-color:cadetblue;
+    transition: all ease-in-out 0.2s;
+    transform:scale(1.1,1.1);
+}
+
+.flogo{
+    width: 100%;
+    height: 450px;
+    margin-top: 90px;
+}
+
+.llogo{
+    height: 450px;
+    width: 80%;
+    margin-top: 90px;
+    margin-left: 140px;
+}

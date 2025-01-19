@@ -1,0 +1,87 @@
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #4CAF50;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  button.btnn {
+    width: 100%;
+    padding: 14px;
+    background-color: #4CAF50;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.btnn:hover {
+    background-color: #45a049
+  }
+  
+  button.btnn:focus {
+    outline: none;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .form-container {
+      padding: 20px;
+      max-width: 90%;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+    button.btnn {
+      font-size: 16px;
+    }
+  }
+  

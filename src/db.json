@@ -1,0 +1,22 @@
+{
+  "Details": [
+    {
+      "id": "3905",
+      "name": "DHRUV SHIVHARE",
+      "deliveryDate": "2025-01-23",
+      "address": "Hoshangabad road bhopal",
+      "advance": "1,00,000",
+      "model": "dubai",
+      "number": "06266680206"
+    },
+    {
+      "id": "ead1",
+      "name": "DHRUV SHIVHARE",
+      "bookingDate": "2025-01-30",
+      "address": "Hoshangabad road bhopal",
+      "advance": "50,000",
+      "package": "gold",
+      "number": "06266680206"
+    }
+  ]
+}
