@@ -3,7 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.body4 {
+    background-image: url("https://3.bp.blogspot.com/-8qad5qNKIw8/XGHkaYElz4I/AAAAAAAACdY/F4aJkP6VkMMPmHyuDnq2229g8f9jYADXACKgBGAs/w0/mountain-landscape-trees-nature-scenery-8K-158.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
 .body4 {
     font-family: 'Arial', sans-serif;
     background-color: #f4f7fc;
@@ -17,7 +27,7 @@
 .dashcontainer {
     width: 80%;
     margin: 30px auto;
-    background-color: #fff;
+    background-color: rgba(245, 245, 245, 0.354);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -45,7 +55,7 @@
 }
 
 .cartable th {
-    background-color: darkslategray;
+    background-color: black;
     color: #fff;
     font-weight: bold;
     border-top-left-radius: 8px;

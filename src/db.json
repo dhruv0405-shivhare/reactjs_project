@@ -1,22 +1,22 @@
 {
   "Details": [
     {
-      "id": "3905",
-      "name": "DHRUV SHIVHARE",
-      "deliveryDate": "2025-01-23",
-      "address": "Hoshangabad road bhopal",
-      "advance": "1,00,000",
-      "model": "dubai",
+      "id": "669b",
+      "name": "Dhruv Shivhare",
+      "departureDate": "2025-01-31",
+      "address": "81 9A saket nagar bhopal near sagar public school",
+      "advance": "200000",
+      "package": "gold",
       "number": "06266680206"
     },
     {
-      "id": "ead1",
-      "name": "DHRUV SHIVHARE",
-      "bookingDate": "2025-01-30",
+      "id": "4728",
+      "name": "Kunal Shivhare",
+      "departureDate": "2025-02-04",
       "address": "Hoshangabad road bhopal",
-      "advance": "50,000",
-      "package": "gold",
-      "number": "06266680206"
+      "advance": "100000",
+      "package": "Silver",
+      "number": "15165595941"
     }
   ]
 }

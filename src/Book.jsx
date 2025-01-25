@@ -8,7 +8,7 @@ const Book = () =>{
     let navigate = useNavigate()
     let[data,setData] = useState({
         'name':"",
-        'bookingDate':"",
+        'departureDate':"",
         'address':"",
         'advance':"",
         'package':"",
@@ -38,14 +38,19 @@ const Book = () =>{
     })
     return(
         <>
+       <div className='bgimage'>
+
+
+       
+
         <div className="form-container">
       <h2>Order Form</h2>
       <form onSubmit={finalsubmit}>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" value={data.name} onChange={hinput} required />
         
-          <label htmlFor="bookingDate">Booking Date:</label>
-          <input type="date" name="bookingDate" value={data.bookingDate} onChange={hinput} required />
+          <label htmlFor="departureDate">Departure Date:</label>
+          <input type="date" name="departureDate" value={data.departureDate} onChange={hinput} required />
 
           <label htmlFor="address">Address:</label>
           <input type="text" name="address" value={data.address} onChange={hinput} required />
@@ -61,6 +66,7 @@ const Book = () =>{
 
         <button className='btnn' type="submit">Submit</button>
       </form>
+    </div>
     </div>
         </>
     )

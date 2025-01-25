@@ -9,6 +9,19 @@
     font-family: 'Arial', sans-serif;
     text-align: center;
   }
+
+  .bgimage{
+    background-image: url("https://img.freepik.com/premium-photo/landscaping-hd-8k-wallpaper-stock-photographic_1064748-31491.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
   
   h2 {
     font-size: 24px;
